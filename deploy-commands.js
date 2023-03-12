@@ -3,7 +3,7 @@ const path = require('node:path');
 const jsonc = require('jsonc');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord.js');
-const { token } = require('./config/token.json');
+const { token } = process.env.TOKEN_APP ? { } : require('./config/token.json');
 
 const commands = [];
 const commandsPath = path.join(__dirname, 'commands');

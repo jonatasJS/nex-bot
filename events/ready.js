@@ -54,7 +54,7 @@ module.exports = {
     readline.cursorTo(process.stdout, 0);
     process.stdout.write(`\n🚀 Ready! Logged in as \x1b[37;46;1m${client.user.tag}\x1b[0m (\x1b[37;46;1m${client.user.id}\x1b[0m)`);
     expressApp.listen(process.env.PORT || 3000, () => {
-      process.stdout.write(`\n🚀 Website ready! Logged in as \x1b[37;46;1mhttp://localhost:3000/\x1b[0m\n`);
+      process.stdout.write(`\n🚀 Website ready! Logged in as \x1b[37;46;1mhttp://localhost:${process.env.PORT}/\x1b[0m\n`);
     });
 	},
 };

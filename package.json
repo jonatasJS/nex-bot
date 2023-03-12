@@ -9,6 +9,9 @@
     "up": "yarn-upgrade-all",
     "build": "yarn && npx yarn-upgrade-all"
   },
+  "engines": {
+    "node": ">=16.9.0"
+  },
   "keywords": [
     "discord",
     "ticket",

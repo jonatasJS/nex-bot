@@ -1,0 +1,70 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "Abra um ticket",
+      "description": "Clique no botão para começar a abrir um ticket",
+      "footer": {
+        "text": "NEX ROLEPLAY",
+        "iconUrl": ""
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket CATEGORYNAME",
+      "description": "Uma equipe o responderá o mais rápido possível!",
+      "footer": {
+        "text": "NEX ROLEPLAY",
+        "iconUrl": ""
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket fechado",
+      "description": "O bilhete foi fechado por CLOSERNAME com o seguinte motivo: `REASON`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket fechado",
+      "description": "O ticket n°TICKETCOUNT foi fechado por CLOSERNAME com o seguinte motivo: `REASON` \n\n nhere é a transcrição do ticket: TRANSCRIPTURL",
+      "footer": {
+        "text": "NEX ROLEPLAY",
+        "iconUrl": ""
+      }
+    }
+  },
+  "modals": {
+    "reasonTicketOpen": {
+      "title": "Abrir ticket",
+      "label": "O motivo do seu ticket",
+      "placeholder": "Por favor, insira o motivo pelo qual você está abrindo um ticket"
+    },
+    "reasonTicketClose": {
+      "title": "Feichar ticket",
+      "label": "O motivo do fechamento do ticket",
+      "placeholder": "Por favor, insira o motivo pelo qual você está fechando o ticket"
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Fechar ticket",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Alegar",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "Ticket aberto! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "O Ticket só pode ser reivindicado por uma equipe!",
+  "ticketAlreadyClaimed": "O ingresso já foi reivindicado!",
+  "ticketClaimedMessage": "> Bilhete reivindicado pot USER",
+  "ticketOnlyClosableByStaff": "Somente a equipe pode fechar o ingresso!",
+  "ticketAlreadyClosed": "O ingresso já está fechado!",
+  "ticketCreatingTranscript": "> Criando transcrição...",
+  "ticketTranscriptCreated": "> Transcrição criada! TRANSCRIPTURL",
+  "ticketLimitReached": "Você só pode ter ingressos TICKETLIMIT abertos ao mesmo tempo!",
+  "other": {
+    "openTicketButtonMSG": "Abra um Ticket",
+    "deleteTicketButtonMSG": "Excluir o Ticket",
+    "selectTicketTypePlaceholder": "Selecione um tipo de Ticket",
+    "claimedBy": "**Reivindicado por**: USER",
+    "noReasonGiven": "Nenhuma razão dada"
+  }
+}

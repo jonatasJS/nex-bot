@@ -1,0 +1,7 @@
+node_modules
+json.sqlite
+package-lock.json
+json.sqlite
+**/token.json
+.vercel
+yarn.lock
